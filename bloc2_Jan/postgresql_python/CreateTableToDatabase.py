@@ -21,3 +21,5 @@ def CreateTables():
     Cursor.close()
 
     print("Tables created succesfully")
+
+CreateTables()

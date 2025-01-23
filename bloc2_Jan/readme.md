@@ -10,7 +10,7 @@ També m'aseguro de que el docker-compose.yml tingui totes les dades correctes i
 Creo les mini llibreries que necessitem (CreateTableToDictionary, CSVToDictionary, DictionaryToDatabase), CreateTableToDictionary creará la taula a la base de dades, CSVToDictionary pasa un CSV a la estructura de dades d'un diccionari, DictionaryToDatabase transforma un dictionari a la comanda SQL per insertar dades a la base de dades
 ![4](../Captures/4.png)
 
-Creo CreateTableToDictionary que simplement crea la taula de clients a la base de dades
+Creo CreateTableToDatabase que simplement crea la taula de clients a la base de dades
 ![5](../Captures/5.png)
 
 Creo CSVToDictionary llegeix el CSV amb Pandas y el transforma a un dicionari, passant la informació a DictionaryToDatabase per enviar-ho tot a la base de dades
@@ -24,3 +24,11 @@ Creo DictionaryToDatabase que transforma el diccionari a una comanda SQL per env
 
 (He corregit l'estructura dels arxius)
 ![8](../Captures/8.png)
+
+He creat les taules a través del script
+![10](../Captures/10.png)
+![11](../Captures/11.png)
+
+I les he populat
+![12](../Captures/12.png)
+![13](../Captures/13.png)
