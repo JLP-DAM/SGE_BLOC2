@@ -43,3 +43,33 @@ I les he populat
 
 ![12](Captures/12.png)
 ![13](Captures/13.png)
+
+Creo el CreateRegister i modifico Main per probar que funcioni CreateRegister, l'executo i comprovo que s'hagi creat el registre. (podem veure que apareix com l'ultim de la taula)
+
+![14](Captures/14.png)
+![15](Captures/15.png)
+![16](Captures/16.png)
+![17](Captures/17.png)
+
+Fico el codi a ReadRegister per llegir tota la taula de Clientes, i he modificat register per que pugui mostrar de forma llegible els resultats.
+
+![18](Captures/18.png)
+![19](Captures/19.png)
+![20](Captures/20.png)
+
+Creo el UpdateRegister per actualitzar la base de dades a través de l'script i utilitzo el Main creat abans per llegir els canvis (hem vist que les captures anteriors han mostrat la informació previa a ser editada, podem veure les diferencies)
+(* a partir d'aqui, m'he adonat que la a la taula li falta la id_cliente, he fet les modificacions necesaries, he canviat els scripts i he renovat algunes captures de pantalla per mantenir coherencia)
+
+![21](Captures/21.png)
+![22](Captures/22.png)
+![23](Captures/23.png)
+![24](Captures/24.png)
+![25](Captures/25.png)
+
+Creo el DeleteRegister per borrar clients de la base de dades i utilitzo el Main creat previament per veure que ja no existeixen els 3 Clients que he canviat amb UpdateRegister
+
+![26](Captures/26.png)
+![27](Captures/27.png)
+![28](Captures/28.png)
+![29](Captures/29.png)
+![30](Captures/30.png)
